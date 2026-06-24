@@ -107,8 +107,6 @@ aero = vlm.run() # basically runs the analysis symbolically, this will return an
 CL = aero["CL"] # lift coefficient
 CD = aero["CD"] # drag coefficient (induced)
 
-print(CL, CD, CL/CD)
-
 
 
 ########### Section 6: Constraints #########
@@ -165,10 +163,6 @@ print(f"Taper ratio: {opt_tip_chord/opt_root_chord:.3f}")
 print(f"Tip twist: {opt_twist:.2f} deg")
 print(f"Wing area: {wing_area:.2f} m²")
 print(f"Aspect ratio: {aspect_ratio:.2f}")
-print()
-print(f'Old CL: {CL:.4f}')
-print(f'Old CD (induced): {CD:.4f}')
-print(f'Old L/D: {CL/CD:.2f}')
 print()
 print(f"New CL: {opt_CL:.4f}")
 print(f"New CD (induced): {opt_CD:.4f}")
