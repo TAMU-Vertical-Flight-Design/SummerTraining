@@ -7,7 +7,7 @@ import aerosandbox.numpy as np # we don't actually end up using this, but it may
 Week 4 Aerodynamics Summer Training: Aerosandbox Example Code
 
 please make sure you have correctly set up your .venv and installed aerosandbox
-see README.md for instructions
+see week 4 training doc for instructions
 
 The point of this python script is for you to walk through the code and understand what it's doing
 I understand you may not be familiar with the math behind it, but the goal is to understand what aerosandbox is doing
