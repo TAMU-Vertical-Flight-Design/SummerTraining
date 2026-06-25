@@ -1,7 +1,6 @@
 import aerosandbox as asb
 import aerosandbox.numpy as np # we don't actually end up using this, but it may be helpful to see how aerosandbox has its own numpy wrapper
-# for those that don't know, numpy is a python library for doing a lot of matrix math and linear algebra, which is very useful for aero calculations
-# probably will end up being your most used module in college! (at least it was mine for sure)
+# for those that don't know, numpy is a python library for doing a lot of matrix math and linear algebra
 
 '''
 Week 4 Aerodynamics Summer Training: Aerosandbox Example Code
