@@ -18,11 +18,18 @@ To create a terminal, go to the top left of the screen and click Terminal -> New
 
 ### 1. Create a Branch
 
-Remember, this will branch off of main and allow you to make edits without it affecting the main stream of code
+Create a subissue for the issue called "Aerodynamics Week 4 Training". Then, create a branch off of this. This can be done in Github. Make sure to checkout the branch after
+
 ```bash
-git checkout -b aerodynamics-Week-4-your-name
+# run git fetch to grab the newest information from remote repo
+git fetch
+
+# checkout the branch
+git checkout your-branch-name
+
+# if you made the branch a while ago, there may have been changes in main you need to merge onto your branch
+git merge origin/main
 ```
-Once you're in your branch, create a folder called your_name with a script week_4_training_your_name.py inside of it and copy/paste the code from aerosandbox_training.py inside of the python script.
 
 ### 2. Create a Virtual Environment
 
@@ -90,7 +97,7 @@ This is how we tell the optimizer what we're trying to minimize. Since we want m
 With everything set up, we just run the script to run the optimizer and find results.
 ```bash
 cd aerodynamics
-python wing_optimization_tutorial.py
+python week_four_training_your_name.py
 ```
 alternatively, just click the play button in the top right :)
 
@@ -110,7 +117,23 @@ Note: to make it look like actual code, use 3 backticks on the lines before and 
 
 Also write a paragraph about something new you learned.
 
-After pasting your output, make sure to push your branch to the remote repository with `git push` in the terminal. Then, create a pull request and add me as a reviewer. You can also add Greyson. 
+After pasting your output, make sure to push your branch to the remote repository:
+```bash
+# use git add . to add all changes to be committed
+git add .
+
+# use git commit -m "your message here" to commit changes
+git commit -m "message"
+
+# use git status to check your status
+git status
+
+# use git push to push changes to remote repo
+git push
+
+# this should work fine if you set up branch correctly off of the subissue 
+```
+Then, create a pull request and add me as a reviewer. You can also add Greyson. 
 
 ---
 
