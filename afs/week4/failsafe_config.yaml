@@ -1,0 +1,5 @@
+battery_low_action: LOITER
+link_loss_action: RTL
+max_drop_altitude_m: 25
+require_tag_confirmation: true
+min_detection_confidence: 0.75

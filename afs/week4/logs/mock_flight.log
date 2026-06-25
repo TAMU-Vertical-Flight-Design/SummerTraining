@@ -1,0 +1,7 @@
+[INFO] EKF healthy
+[INFO] SEARCH_PATTERN=lawnmower
+[WARN] GPS variance high
+[INFO] detected tag id=17 confidence=0.82
+[INFO] detected tag id=18 confidence=0.64
+[ERROR] payload release timeout
+[INFO] switching FAILSAFE_MODE=LOITER
