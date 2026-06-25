@@ -18,17 +18,16 @@ To create a terminal, go to the top left of the screen and click Terminal -> New
 
 ### 1. Create a Branch
 
-Create a subissue for the issue called "Aerodynamics Week 4 Training". Then, create a branch off of this. This can be done in Github. Make sure to checkout the branch after
+Create a subissue for the issue called "Aerodynamics Week 4 Training". Then, create a branch for it:
 
 ```bash
 # run git fetch to grab the newest information from remote repo
 git fetch
 
 # checkout the branch
-git checkout your-branch-name
-
-# if you made the branch a while ago, there may have been changes in main you need to merge onto your branch
-git merge origin/main
+git checkout -b your-branch-name
+git push --set-upstream origin your-branch-name # this creates a remote version of the branch and attaches it to your local version
+# after these steps, you can attach your new branch to the subissue in Github.
 ```
 
 ### 2. Create a Virtual Environment
