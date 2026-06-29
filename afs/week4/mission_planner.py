@@ -23,3 +23,4 @@ if __name__ == "__main__":
     print("AFS mission planner sanity check")
     print(mission_summary())
 
+"""Return if drop zone is usable."""
