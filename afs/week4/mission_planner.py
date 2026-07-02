@@ -9,7 +9,9 @@ def choose_drop_zone(detections):
         return None
     return max(detections, key=lambda d: d.get("confidence", 0))
 
+
 def is_candidate_usable(candidate):
+    """Return if drop zone is usable."""
     if candidate is None:
         return False
     return candidate.get("confidence", 0) >= 0.75
