@@ -15,6 +15,7 @@ def mission_summary():
 
 
 def is_candidate_usable(candidate):
+    """"Return if drop zone is usable."""
     if candidate is None:
         return False
     return candidate.get("confidence", 0) >= 0.75
