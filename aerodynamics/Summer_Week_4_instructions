@@ -1,4 +1,4 @@
-# VFD Summer Training 2026 — AeroSandbox Wing Optimization
+6cb5141# VFD Summer Training 2026 — AeroSandbox Wing Optimization
 
 Week 4 training will cover an aerodynamics analysis tool we like called aerosandbox. For old members, we did not get to use this last year as it was not as necessary, but we plan to implement it this year. The tool can be useful for preliminary aircraft sizing, and can be interfaced with other design tools such as XFLR5 (a CFD-type tool used for analysis and design we also use).
 
